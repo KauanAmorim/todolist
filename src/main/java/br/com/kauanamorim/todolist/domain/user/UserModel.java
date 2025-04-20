@@ -1,4 +1,4 @@
-package br.com.kauanamorim.todolist.user;
+package br.com.kauanamorim.todolist.domain.user;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

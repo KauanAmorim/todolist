@@ -1,5 +1,6 @@
-package br.com.kauanamorim.todolist.task;
+package br.com.kauanamorim.todolist.infrastructure.repository.task;
 
+import br.com.kauanamorim.todolist.domain.task.TaskModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

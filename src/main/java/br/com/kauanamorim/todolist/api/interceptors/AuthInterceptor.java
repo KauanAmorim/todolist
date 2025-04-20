@@ -1,9 +1,9 @@
-package br.com.kauanamorim.todolist.interceptor;
+package br.com.kauanamorim.todolist.api.interceptors;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
-import br.com.kauanamorim.todolist.filter.Public;
-import br.com.kauanamorim.todolist.user.IUserRepository;
-import br.com.kauanamorim.todolist.user.UserModel;
+import br.com.kauanamorim.todolist.annotations.Public;
+import br.com.kauanamorim.todolist.infrastructure.repository.user.IUserRepository;
+import br.com.kauanamorim.todolist.domain.user.UserModel;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;

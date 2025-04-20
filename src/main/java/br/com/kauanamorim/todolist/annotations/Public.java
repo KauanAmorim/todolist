@@ -1,4 +1,4 @@
-package br.com.kauanamorim.todolist.filter;
+package br.com.kauanamorim.todolist.annotations;
 
 import org.springframework.web.bind.annotation.Mapping;
 

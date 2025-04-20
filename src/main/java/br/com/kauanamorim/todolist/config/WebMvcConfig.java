@@ -1,6 +1,6 @@
 package br.com.kauanamorim.todolist.config;
 
-import br.com.kauanamorim.todolist.interceptor.AuthInterceptor;
+import br.com.kauanamorim.todolist.api.interceptors.AuthInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
